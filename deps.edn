@@ -1,0 +1,8 @@
+{:deps
+ {org.clojure/clojure {:mvn/version "1.9.0"}
+  org.slf4j/slf4j-nop {:mvn/version "1.7.25"}
+  sparkledriver {:mvn/version "0.2.2"}}
+
+ :aliases
+ {:nrepl {:extra-deps {org.clojure/tools.nrepl {:mvn/version "0.2.12"}}}
+  :cider {:extra-deps {cider/cider-nrepl {:mvn/version "0.15.1"}}}}}

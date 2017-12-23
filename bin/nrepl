@@ -1,0 +1,3 @@
+#!/bin/bash
+
+clj -R:nrepl bin/nrepl.clj "$*"
