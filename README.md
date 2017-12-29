@@ -2,6 +2,16 @@
 
 Fetch a HTML page and print out any tables as org-mode style text tables.
 
+# Installation
+
+You need the Clojure command line tools installed, see [Getting Started](https://clojure.org/guides/getting_started).
+
+After that, just clone this repo.
+
+# Use
+
+Run from the command line with a URL as argument.
+
 ```
 ./tablizer.clj https://en.wikipedia.org/wiki/2016_African_Championships_in_Athletics_%E2%80%93_Men%27s_800_metres
 
